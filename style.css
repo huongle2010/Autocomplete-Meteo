@@ -95,7 +95,7 @@ nav{
 
 #weatherDisplay .margin{
     margin: 0px;
-    padding: 10px;
+    padding-bottom: 10px;
     
 }
 
@@ -159,6 +159,13 @@ span{
     font-size: 3rem; 
     color: #1E6F94;
     letter-spacing: 10px;
+}
+
+/* Mobile version */
+@media screen and (min-width: 400px) and (max-width: 600px){
+#weatherDisplay, .graphContainer, #mapid{
+    width: 100%;
+}
 }
 
 
