@@ -162,7 +162,7 @@ span{
 }
 
 /* Mobile version */
-@media screen and (min-width: 400px) and (max-width: 600px){
+@media screen and (min-width: 375px) and (max-width: 667px){
 #weatherDisplay, .graphContainer, #mapid{
     width: 100%;
 }
